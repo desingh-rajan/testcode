@@ -21,7 +21,7 @@ end
 describe Calculate, '#divide' do
   context 'Giving two numbers to divide' do
     it 'should divide' do
-      result = Calculate.multiply(4, 3)
+      result = Calculate.divide(4, 3)
       expect(result).to eq 1
     end
   end
