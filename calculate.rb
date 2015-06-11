@@ -10,4 +10,8 @@ class Calculate
   def self.multiply(a,b)
     a+b
   end
+
+  def self.divide(a,b)
+    a/b 
+  end
 end
