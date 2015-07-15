@@ -26,4 +26,5 @@ class Calculate
   def average(*numbers)
     numbers.inject(:+)/numbers.count
   end
+  
 end
