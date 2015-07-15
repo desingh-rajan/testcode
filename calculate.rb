@@ -22,4 +22,5 @@ class Calculate
     #  nothing
   end
   #:nocov:
+
 end
