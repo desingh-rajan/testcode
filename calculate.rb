@@ -24,6 +24,6 @@ class Calculate
   #:nocov:
 
   def average(*numbers)
-    numbers.inject(:+) / numbers.count
+    numbers.inject(:+)/ numbers.count
   end
 end
