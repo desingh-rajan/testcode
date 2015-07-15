@@ -3,9 +3,11 @@ class Calculate
     a+b
   end
 
+  #:nocov:
   def self.sub(a, b)
     a-b
   end
+  #:nocov:
 
   def self.multiply(a, b)
     a*b
