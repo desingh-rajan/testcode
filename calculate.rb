@@ -1,3 +1,4 @@
+# Test
 class Calculate
   def self.add(a, b)
     a + b
@@ -24,7 +25,6 @@ class Calculate
   #:nocov:
 
   def average(*numbers)
-    numbers.inject(:+)/numbers.count
+    numbers.inject(:+) / numbers.count
   end
-  
 end
