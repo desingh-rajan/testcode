@@ -2,6 +2,10 @@ require 'simplecov'
 SimpleCov.start
 puts "SimpleCov started..."
 
+SimpleCov.at_exit do
+  SimpleCov.minimum_coverage 100
+end
+
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
