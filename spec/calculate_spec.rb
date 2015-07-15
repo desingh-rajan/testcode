@@ -1,3 +1,4 @@
+require_relative 'spec_helper'
 require_relative '../calculate'
 
 describe Calculate, '#add' do

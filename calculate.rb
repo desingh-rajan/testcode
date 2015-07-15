@@ -14,4 +14,10 @@ class Calculate
   def self.divide(a, b)
     a/b
   end
+
+  #:nocov:
+  def ignore_it
+    #  nothing
+  end
+  #:nocov:
 end
