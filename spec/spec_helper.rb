@@ -2,7 +2,7 @@ require 'simplecov'
 SimpleCov.start do
   SimpleCov.minimum_coverage 100
 end
-puts "SimpleCov started..."
+puts 'SimpleCov started...'
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
