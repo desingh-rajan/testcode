@@ -1,3 +1,4 @@
+# Test calculate
 class Calculate
   def self.add(a, b)
     a + b
@@ -22,5 +23,4 @@ class Calculate
     #  nothing
   end
   #:nocov:
-
 end
