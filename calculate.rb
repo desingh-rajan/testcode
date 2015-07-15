@@ -1,4 +1,3 @@
-# Just to test calculator
 class Calculate
   def self.add(a, b)
     a + b
