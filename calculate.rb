@@ -15,7 +15,7 @@ class Calculate
   end
 
   def self.divide(a, b)
-    a / b
+    a/ b
   end
 
   #:nocov:
